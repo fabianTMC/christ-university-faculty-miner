@@ -5,6 +5,9 @@ class Miner:
 	# variables needed for the miner to work correctly
 	teacherTypes = ['professor', 'associate professor', 'assistant professor', 'teaching associate', ' research director']
 
+	'''
+		This takes the url of the faculty profile for a department and extracts the name, degrees,position and profile details of each professor
+	'''
 	def facultyMiner(self, url):
 		teachers = []
 
